@@ -19,7 +19,7 @@
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder>;
-        triggers-per-rotation = <12>;   // try 12 → 8 if still too “slippery”
+        triggers-per-rotation = <1>;   // try 12 → 8 if still too “slippery”
     };
 };
 
